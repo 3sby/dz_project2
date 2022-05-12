@@ -1,0 +1,25 @@
+header {
+    height: 50px;
+    background: #212121;
+    nav {
+        padding: 10px 70px;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        list-style: none;
+    }
+    .menu_link,
+    .menu_link:hover {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .menu_item {
+        border-right: 2px dotted #000;
+        padding-right: 48px;
+    }
+}
