@@ -2,7 +2,9 @@ header {
     height: 50px;
     background: #212121;
     nav {
-        padding: 10px 70px;
+        width: 1140px;
+        margin: 0 auto;
+        padding: 10px 0 0 70px;
     }
     .menu {
         display: flex;
@@ -20,6 +22,41 @@ header {
     }
     .menu_item {
         border-right: 2px dotted #000;
-        padding-right: 60px;
+        padding-right: 36px;
+    }
+    .subheader {
+        height: 84px;
+        background: rgba(0, 0, 0, .6);
+        padding: 17px 18px;
+        .logo__text {
+            color: #fff;
+            font-family: 'Roboto';
+            font-weight: 100;
+            font-size: 13px;
+        }
+        .phone {
+            font-weight: 400;
+            font-size: 22px;
+            color: #FFF;
+            text-decoration: none;
+        }
+        .phone__text {
+            font-weight: 300;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+        .header__button {
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+            width: 172px;
+            height: 46px;
+            background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+            box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            border: none;
+        }
     }
 }
