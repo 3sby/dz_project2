@@ -3,6 +3,7 @@
 header {
     height: 50px;
     background: #212121;
+    position: relative;
     nav {
         width: 1140px;
         margin: 0 auto;
@@ -30,6 +31,8 @@ header {
         height: 84px;
         background: rgba(0, 0, 0, .6);
         padding: 17px 18px;
+        position: absolute;
+        width: 100%;
         .logo__text {
             color: $font_color_white;
             font-family: 'Roboto';
@@ -92,7 +95,6 @@ header {
         width: 259px;
         height: 63px;
         display: block;
-        margin: 0 auto;
-        margin-top: 116px;
+        margin: 116px auto;
     }
 }
