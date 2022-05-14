@@ -98,3 +98,36 @@ header {
         margin: 116px auto;
     }
 }
+
+.work {
+    padding: 20px 64px;
+    .work__advantages {
+        @extend %extend_adv;
+        background-color: #000;
+        color: $font_color_white;
+    }
+    .work__header {
+        @extend %extend_block_header;
+        color: $font_color_black;
+    }
+    .work__circle {
+        width: 116px;
+        height: 116px;
+        border-radius: 50%;
+        background: #1EACC7;
+    }
+    .work__item_heder {
+        font-weight: 400;
+        font-size: 17px;
+        color: $font_ben_color;
+        width: 370px;
+    }
+    .work__item_desc {
+        font-weight: 300;
+        font-size: 15px;
+        color: #202020;
+    }
+    .work__item_text {
+        width: 370px;
+    }
+}
